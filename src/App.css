@@ -1,0 +1,71 @@
+
+
+#root {
+  margin: 0 auto;
+  text-align: left;
+  margin-left: 32px;
+}
+
+body {
+  width: 50vw;
+  margin: 0 auto;
+
+}
+
+
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgb(63, 63, 63);
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  min-width: 40vw;
+  width: auto;
+  background-color: #343535;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+
+section {
+  /* max-width: 50vw; */
+  margin: 16px auto;
+  padding: 16px 20px;
+  background: #323232;
+  border-radius: 8px;
+}
+
+
+button {
+  background-color: rgb(185, 127, 255);
+  width: 40vw;  
+  position: fixed;
+  padding-top: 24px;
+}
+
+
+.labelAndInput {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+form {
+  margin-bottom: 128px;
+}
